@@ -29,7 +29,7 @@ pip install pandas
 
 1. Set the `url` variable in the script to the Yelp business page you want to scrape. For example:
    ```python
-   url = "https://www.yelp.com/biz/bowlero-san-antonio-san-antonio"
+   url = "https://www.yelp.com/biz/<BUSINESS NAME>"
    ```
 2. Run the script. It will scrape the reviews, including the reviewer's name, review content, and rating, and save the data into a CSV file named `yelp_reviews.csv`.
 
